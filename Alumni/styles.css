@@ -1,0 +1,312 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* login */
+
+.login-container {
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: #3498db;
+  color: #fff;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #2980b9;
+}
+
+p.error-message {
+  color: red;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Tambahkan styling untuk halaman tambah data alumni */
+
+section#tambah-data {
+  padding: 20px;
+  margin-bottom: 100px;
+  margin-top: 30px;
+}
+
+#tambah-data h2 {
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+/* Berita */
+#berita {
+  padding-bottom: 125px; /* Sesuaikan dengan ukuran yang diperlukan */
+}
+
+.berita-item img {
+  width: 100px; /* Atur lebar gambar sesuai kebutuhan */
+  height: auto; /* Sesuaikan tinggi agar gambar tetap proporsional */
+  margin-right: 10px;
+}
+
+.berita-item {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.info-berita {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.info-berita h3 {
+  margin: 50; /* Set margin ke 0 agar tidak ada jarak */
+}
+
+.info-berita p {
+  margin-bottom: 0px; /* Sesuaikan margin-top dan margin-bottom sesuai kebutuhan */
+}
+
+.gambar-berita img {
+  width: 200px; /* Sesuaikan dengan lebar gambar yang diinginkan */
+  height: auto; /* Sesuaikan tinggi agar gambar tetap proporsional */
+  margin-right: 10px;
+}
+
+/* lowongan */
+#lowongan {
+  text-align: left; /* Pusatkan teks */
+}
+
+.section-heading {
+  margin-bottom: 20px; /* Beri jarak ke bawah */
+}
+
+.row {
+  display: flex;
+  justify-content: space-between; /* Letakkan item sesuai dengan ruang yang tersedia */
+  flex-wrap: wrap; /* Pindahkan ke baris baru jika tidak cukup lebar */
+}
+
+.col-md-4 {
+  width: 30%; /* Atur lebar kolom (30%) */
+  margin-bottom: 20px; /* Beri jarak ke bawah */
+  box-sizing: border-box; /* Pertimbangkan padding dan batas dalam lebar */
+}
+
+.lowongan-item {
+  flex: 0 0 auto;
+  width: 100%; /* Atur lebar item lowongan 100% */
+  border: 1px solid #ddd;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center; /* Pusatkan teks */
+}
+
+.lowongan-item img {
+  width: 100%;
+  height: auto;
+}
+
+.lowongan-item h3 {
+  margin-bottom: 10px;
+}
+
+.lowongan-item p {
+  margin-bottom: 0;
+}
+/* header */
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* Menempatkan header di atas konten */
+}
+header .brand {
+  font-size: 1.5em;
+  font-weight: bold;
+  float: left;
+}
+
+.informasi-alumni-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  float: right;
+  position: relative; /* tambahkan properti ini */
+  z-index: 2; /* tambahkan properti ini */
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.login {
+  float: right;
+  margin-top: 5px;
+}
+
+section {
+  padding: 20px 0;
+}
+
+.tombol-tambah {
+  display: block;
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: #3498db;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+}
+
+/* Banner */
+.banner-top {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.banner-top img {
+  max-width: 100%;
+  margin-top: 40px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* Footer */
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+}
+
+footer::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* chart */
+.chartContainer {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+/* Alumni Prestasi */
+#alumni-prestasi {
+  text-align: left; /* Pusatkan teks */
+}
+
+/* Alumni berprestasi */
+.alumni-prestasi-container {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.prestasi-item {
+  flex: 0 0 auto;
+  width: 100%; /* Atur lebar item prestasi 100% */
+  margin-right: 20px; /* Atur jarak antar item */
+  box-sizing: border-box; /* Pertimbangkan padding dan batas dalam lebar */
+}
+
+.prestasi-item img {
+  width: 100%;
+  height: auto;
+}
+
+.prestasi-item h3 {
+  margin-bottom: 10px;
+}
+
+.prestasi-item p {
+  margin-bottom: 0;
+}
